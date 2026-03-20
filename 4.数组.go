@@ -12,5 +12,8 @@ func main() {
 	fmt.Println(nameList[2])
 	fmt.Println(nameList[len(nameList)-1])
 	// nameList[-1] go不支持
-
+	// 那么我们怎么遍历数组呢。
+	for i := 0; i < len(nameList); i++ {
+		fmt.Println(nameList[i])
+	}
 }
